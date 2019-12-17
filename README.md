@@ -1,2 +1,19 @@
 # TimeMachine-in-Python-
 Tool timemachine that copies of specified files so that it builds a history of their changes over time.
+Steps to Run:
+
+1.Activate virtual env
+>>C:\Users\ADMIN\Desktop\TimeMachine>env\Scripts\activate
+
+2.Run timemachine.py
+>> python timemachine.py
+
+for more help Run with --help flag
+>> python timemachine.py --help
+
+varitions with flag:
+python timemachine.py --config config_file_path 
+python timemachine.py --des destination_folder_path
+python timemachine.py --add filepath
+python timemachine.py --remove filepath
+python timemachine.py --list
